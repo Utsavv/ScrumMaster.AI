@@ -1,0 +1,236 @@
+
+
+=== Received on: 2024-12-31 09:45:41.917000+00:00 ===
+(12/31/2024) 	
+Quick recap 	
+Vishakha discussed her work on analyzing OSS tables and creating a PowerShell script, while also guiding Ritika on the documentation of a micro strategy. The team also addressed an issue with loyalty archival integration flagged by Shawn, planning to create a job to implement his proc and fix reported defects. Simultaneously, they will analyze performance impacts and redesign procs as needed, with Sriti implementing Shawn's proc and Rahul analyzing performance and recommending improvements. 	
+Next steps 	
+• Vishakha to complete analysis of OSS tables using the PowerShell script she created. 	
+• Vishakha to connect with Ritika to provide further guidance on MicroStrategy documentation. 	
+• Vishakha to proceed with the environment upgrade to 15.2.1 and finish the related defect. 	
+• Ritika to work on the troubleshooting portion of the document and move the task from "To Do" to "In Progress" in the project management tool. 	
+• Kshitij to execute the setup file for the environment after restoring backups and modifying it. 	
+• Rahul to continue analyzing the transition archival for player archive and player merges, checking for any impact on loyalty archival integration with Envision. 	
+• Team to ensure they burn down their tasks and maintain capacity. 	
+• Shrutish to work on creating a job using the proc sent by Shawn. 	
+• Rahul to act as a shadow resource for Shrutish, helping with any challenges. 	
+• Team to analyze and redesign procs for performance improvement once the performance environment is set up. 	
+• Kshitij to review Shawn's latest email regarding proc modifications. 	
+• Utsav to create a TFS item for the next sprint regarding the detailed analysis of flows updating loyalty. 	
+• Utsav to create a job item for Shrutish to work on Shawn's version of the proc. 	
+	
+	
+Summary 	
+OSS Tables Analysis and Troubleshooting 	
+In the meeting, Vishakha discussed her work on analyzing OSS tables and creating a PowerShell script. She also guided Ritika on the documentation of a micro strategy and shared relevant documents. Vishakha mentioned she would work on a defect and upgrade an environment to 15 2.1. Ritika planned to work on a document on troubleshooting, connecting with Vishakha for guidance. Kshitij discussed setting up an environment for a defect, deleting unnecessary items, and restoring backups. Rahul, the meeting's facilitator, encouraged the team to move tasks from 'to do' to 'in progress' as they began working on them. 	
+Fixing Loyalty Archival Integration Issue 	
+Rahul and the team discuss fixing an issue with loyalty archival integration flagged by Shawn. They plan to create a job to implement Shawn's proc first and fix the reported defects. Simultaneously, they will analyze performance impacts, redesign procs as needed, and understand reasoning behind Shawn's changes to incorporate that feedback. Sriti will work on implementing Shawn's proc with Rahul's support. Rahul will analyze performance and recommend improvements. The team aligns on prioritizing the production fix first while doing a deeper assessment for long-term improvements.
+
+
+=== Received on: 2024-12-30 09:35:51.339000+00:00 ===
+(12/30/2024) 	
+Quick recap 	
+Rahul led the scrum session, with Kshitij and Shrutis discussing a defect and a security session, respectively. Rahul also shared his work on analyzing an issue sent by Shawn and planned to discuss it further. The team also discussed their work schedules, with Utsav informing about his leave on the second of January and the team agreeing to manage Rahul's absence. 	
+Next steps 	
+• Rahul to discuss defect with Shawn regarding ability to affect pattern ratings. 	
+• Rahul to update his leave hours for January 2nd and potentially January 3rd. 	
+• Rahul to update his burned hours in the capacity tracker. 	
+• Utsav to call Rahul separately on Teams for further discussion. 	
+• Kshitij to start working on the defect related to the empathy message. 	
+	
+	
+Summary 	
+Scrum Session and Issue Analysis 	
+In the meeting, Rahul initiated the scrum session, with Kshitij and Shrutis discussing a defect and a security session, respectively. Rahul then shared his work on analyzing an issue sent by Shawn, and planned to discuss it further. Utsav asked Rahul to show a graph and the capacity, and informed Rahul about his own leave on the second of January. The team agreed to manage Rahul's absence, ensuring his hours are accounted for.
+
+
+=== Received on: 2024-12-27 09:34:28.969000+00:00 ===
+(12/27/2024) 	
+Quick recap 	
+Utsav and Ritika had a meeting, but Rahul was absent. They decided to end the call as no one else was present. The meeting was likely about a topic that was not disclosed in the section summaries. 	
+Next steps 	
+Next steps were not generated due to insufficient transcript. 	
+	
+	
+Summary 	
+Rahul's Absence Leads to Meeting End 	
+Utsav and Ritika join a meeting, but Rahul does not. Since no one else is present, they decide to end the call.
+
+
+=== Received on: 2024-12-27 09:33:32.116000+00:00 ===
+(12/27/2024) 	
+Quick recap 	
+Rahul and Kshitij had a brief conversation, possibly about a meeting or event, but the details were not clear. They greeted each other and seemed to discuss some form of gathering, but no specific decisions or action items were mentioned. The conversation was somewhat incomplete, leaving many aspects unclear. 	
+Next steps 	
+Next steps were not generated due to insufficient transcript. 	
+	
+	
+Summary 	
+Brief Greeting and Incomplete Discussion 	
+Rahul and Kshitij greet each other and briefly discuss a meeting or event. However, their conversation seems incomplete and lacks clear decisions or action items.
+
+
+=== Received on: 2024-12-26 10:08:06.435000+00:00 ===
+(12/26/2024) 	
+Quick recap 	
+The team discussed task assignments for the current sprint, with Vishakha agreeing to take on several documentation tasks and Kshitij working on setting up his development environment. They also reviewed their progress and challenges in the last sprint, with a focus on improving coordination and communication with other systems. The team agreed to continue working on these issues and to improve their processes, with a commitment to focus on these issues in future meetings. 	
+Next steps 	
+• Vishakha to add tasks to the KT support job for herself. 	
+• Rahul to continue analysis of the envision game key and EGM division key defect and involve Kshitij in the process. 	
+• Kshitij to create his development environment and start working on the data consumption technology evaluation task. 	
+• Vishakha to reach out to Scott regarding the Demo 6 issue and explore options for opening a support ticket with MicroStrategy. 	
+• Utsav to share the learning sheet link with Kshitij for tracking learning activities. 	
+• Team members to update their tasks in the sprint board with dates as soon as possible. 	
+• Utsav to investigate ways to improve awareness of changes in OSS, loyalty, and other source systems that may impact Envision. 	
+	
+	
+Summary 	
+Assigning Tasks and Setting Up Environment 	
+Rahul, Vishakha, and Utsav discuss assigning tasks from the backlog to team members for the current sprint. Vishakha agrees to take on several documentation tasks after reviewing them. Utsav creates a generic task for Kshitij to set up his development environment and add subtasks under it. The team aims to ensure all tasks are properly assigned before starting work. 	
+Task Assignment and Defect Work Plan 	
+Utsav suggested that Vishakha create a task in the Kt support job for herself and Chitta, with the majority of the work to be done by Chitta. Utsav also proposed that Chitta could work on the Envision game key and Egm division key defect, which Rahul confirmed was complex. However, Utsav suggested that Rahul could still be the primary owner of the task and could take it up once he completed his analysis. Kshitij was assigned to work on two PBIs related to data consumption and technology evaluation. The team agreed to start the defect work once Shawn was available, which was expected to be after the New Year. 	
+Development Environment Setup and Learning 	
+Kshitij agreed to work on setting up his development environment and aligning with the team after a scheduled call. Utsav suggested Kshitij join a call with Rahul and Shawn for a better understanding of the project. Vishakha encountered issues with the Plural Site website, which Kshitij clarified was a limited-time feature for MSDN license holders. Utsav advised Vishakha to try using her MSDN license for access. Utsav also reminded the team to maintain a learning sheet for tracking their progress in courses and other learning activities. 	
+Addressing Support and Process Challenges 	
+In the meeting, the team discussed their progress and challenges in the last sprint. Kshitij highlighted the support and learning he received, while Rahul and Vishakha noted the successful analysis of impacts and the welcome of a new team member. However, they also identified issues with the support from the micro strategy, which they plan to address by reaching out to Scott. The team agreed to continue working on these issues and to improve their processes. 	
+Improving Coordination and Communication 	
+In the meeting, Utsav discussed the need for the team to improve their coordination and communication with other systems, particularly in relation to changes and updates. He highlighted the importance of being aware of changes in the loyalty and OSS systems and suggested that the team should keep track of these changes. Rahul agreed with Utsav's points and suggested having a point of contact to share updates. Utsav acknowledged these suggestions and committed to finding a solution, promising to focus on this issue in the next retro meeting. The team agreed to continue discussing these issues in future meetings.
+
+
+=== Received on: 2024-12-24 09:58:11.303000+00:00 ===
+(12/24/2024) 	
+Quick recap 	
+The team discussed various ongoing projects, including Vishakha's work on the EPL job flow and packages, and the issues with Esri Keys and the Performa dashboard. They also discussed the need for a list of tables for Vinoises to analyze, the creation of a PBI for analyzing changes in these tables, and the importance of data document accuracy. Lastly, they introduced the use of AI meeting summary and action item tracking through an enterprise Chat GPT license, and discussed plans for the upcoming holiday. 	
+Next steps 	
+• Vishakha to complete the Katie job and close it after reviewing the remaining log tables. 	
+• Vishakha to continue working on resolving the Demo 6 issue with the Esri Keys and Performa dashboard. 	
+• Rahul to review the document shared by Utsav regarding the archival strategy. 	
+• Rahul to follow up with Shawn Smith regarding the defect he's facing with Boyd. 	
+• Utsav to create a PBI for analyzing tables that Vinoises needs to monitor for changes. 	
+• Utsav to create a PBI for updating Micro Strategy documentation. 	
+• Team to review dropped tables as a housekeeping task. 	
+• Team to analyze tech debt items in version 16.0 to determine which can be addressed in version 15.3. 	
+• Team to discuss the importance and maintenance of the data flow document with Scott and Barry after the holidays. 	
+• Shatish to be assigned the second Micro Strategy training license once renewed. 	
+• Scott and Barry to conduct a live demo for Churchill Downs (CDI) regarding Envision implementation. 	
+	
+	
+Summary 	
+EPL Job Flow, Packages, and Issues 	
+In the meeting, Vishakha discussed her work on the EPL job flow and packages, and her ongoing issue with the Esri Keys and the Performa dashboard. She also mentioned seeking help from the chat support on MicroStrategy. Kshitij shared that he was working on documents and embedding into such. Rahul reported on his work on the archival strategy and looking into a defect. Utsav discussed the task burning chart and potential items for the next sprint, including an automated mail to loyalty for changes made. Scott experienced technical difficulties but was able to join the meeting later. 	
+Analyzing Tables and Documentation Process 	
+In the meeting, Utsav and Scott discussed the need for a list of tables for Vinoises to analyze, which would be implemented in the loyalty system. They also discussed the creation of a PBI for analyzing changes in these tables. Scott suggested that any improper documentation for MicroStrategy could be considered a defect rather than technical debt. Utsav proposed to engage the documentation team to make appropriate changes. They also discussed the need to review dropped tables and the analysis of tech data items. The team agreed to discuss the importance of the data document when everyone returns from holidays. Lastly, they discussed the data lineage documentation and the need to ensure its accuracy. 	
+Holiday Plans and Shawn's Availability 	
+Scott and Rahul discussed their plans for the upcoming holiday. Scott mentioned he would be in the area and planned to do some non-work related activities. Rahul shared that he had received a positive response from Shawn Wilson, who was only out for two days. Scott had managed to connect with Shawn and informed Rahul that he would be available for further information. Rahul agreed to look into the current sprint and connect with Shawn again if necessary. Scott also mentioned that he had tried to reach out to Shawn earlier but was unsuccessful. 	
+Bugs, Licenses, and Churchill Downs Demo 	
+Scott discussed the status of bugs and jobs, expressing concern about some still being open. Vishakha mentioned she would resolve some issues today, but couldn't guarantee it. Scott also mentioned the renewal of two architect licenses for micro strategy training, which would expire on December 28 or 29. He suggested assigning one of these licenses to Shatish for better understanding of micro strategy. Lastly, Scott announced a live demo for Churchill Downs, a client interested in installing Envision, and mentioned the possibility of expanding to multiple properties. 	
+AI Meeting Summary and Accountability 	
+In the meeting, Utsav introduced the use of AI meeting summary and action item tracking through an enterprise Chat GPT license. He demonstrated how it could help in keeping track of discussions and action items, and how it could also assist in filling performance reviews. Scott expressed his approval of this new level of accountability. Utsav also mentioned that once he gains access to the API, the process will be automated. The team ended the conversation on a positive note, wishing each other happy holidays and best wishes for their respective teams.
+
+
+=== Received on: 2024-12-23 09:44:47.623000+00:00 ===
+(12/23/2024) 	
+Quick recap 	
+The team discussed the creation of PBIs for various processes and their progress on the Katie project, with a focus on data analysis and scheduling. They also discussed the potential impact of their work on existing customers and the need to consider both new and existing customers. Lastly, they touched on a job related to reviewing end result tables used by loyalty and the NFL, with Scott mentioning that the Ravens were playing on Netflix. 	
+Next steps 	
+• Utsav to add acceptance criteria to the PBIs for build upgrade and deployment process improvement. 	
+• Scott to review the PBIs created by Utsav for build upgrade and deployment process improvement. 	
+• Vishakha and Shriti to continue working on the ETL job flow and batch files for the Katie project. 	
+• Vishakha to research and troubleshoot the Demo 6 issue related to Yes Rip functionality in Microstrategy. 	
+• Kshitij to continue working on the Katie project setup and join Vishakha in the process. 	
+• Rahul to attend the rescheduled meeting in January regarding new PBIs and system requirements. 	
+• Rahul to analyze archival strategies for both new and existing customers. 	
+• Scott to reach out to Shawn and Alex regarding their availability and the defect in net assessment. 	
+• Vishakha to follow up with the Loyalty team regarding the review of end result tables used for notifications. 	
+• Utsav to create a job for closing the review of end result tables used by loyalty to send notifications. 	
+	
+	
+Summary 	
+PBI Creation, Katie Project, and Impact 	
+In the meeting, Utsav discussed the creation of PBIs for the build upgrade, build, and deployment process, and mentioned that he would set up a meeting with Morally to discuss these. Scott agreed to review the PBIs when he had time. Vishakha and Kshitij discussed their progress on the Katie project, including the setup of the data warehouse. Rahul shared his work on analyzing new PBIs and rescheduling a meeting with the team. Utsav and Scott discussed the potential impact of their work on existing customers, with Scott suggesting they should consider both new and existing customers. Rahul also mentioned a defect in the net assessment. 	
+Scheduling and Data Review Discussion 	
+In the meeting, Scott agreed to reach out to Shawn to check his availability for the upcoming days. Rahul expressed his interest in analyzing the data from a previous event, but was unsure if Shawn would be available. Scott also mentioned that he would discuss with both Shawn and Alex to get their schedules. Utsav and Vishakha discussed a job related to reviewing end result tables used by loyalty to send notifications, with Vishakha mentioning that she had not received a positive response yet. Utsav decided to follow up on the loyalty side and Vishakha agreed to continue her efforts. The team also briefly discussed the NFL, with Scott mentioning that the Ravens were playing on Netflix.
+
+
+=== Received on: 2024-12-19 09:37:52.819000+00:00 ===
+(12/19/2024) 	
+Quick recap 	
+Vishakha discussed her ongoing work on the demo 6 issue and the impact analysis document for the Susanthal loyalty changes, while also mentioning her collaboration with Utsav on the Katie task. Sarthak shared his progress on the training part and his anticipation of receiving a Kubernetes VM form from Ramanji. The meeting also covered changes to due dates on tasks, progress on database concepts, and the need to address visa issues. 	
+Next steps 	
+• Vishakha to complete testing of the functionality for the demo 6 issue. 	
+• Vishakha to proceed with other reported issues on the server. 	
+• Vishakha to incorporate additional inputs from Prague into the Susanthal loyalty changes impact analysis document. 	
+• Vishakha to deliver the remaining Burgers item. 	
+• Vishakha and team to extend Katie work as planned for yesterday and today. 	
+• Vishakha to share the draft document with Utsav for review. 	
+• Sarthak to start working on the bug to be delivered by Vishakha. 	
+• Sarthak to follow up with Ramanji regarding the Kubernetes VM form. 	
+• Sarthak to update task due dates in the project management system. 	
+• Utsav to review Vishakha's document when available. 	
+• Utsav to connect with Vishakha around 3:30 PM to discuss the document and the loyalty demo. 	
+	
+	
+Summary 	
+Demo 6 Issue and Impact Analysis 	
+In the meeting, Vishakha discussed her work on the demo 6 issue, which she plans to continue and address other reported issues on the server. She also mentioned her progress on the impact analysis document for the Susanthal loyalty changes, awaiting further inputs from Prague. Vishakha also mentioned that she and Utsav would extend their work on the Katie task. Sarthak shared that he was working on the training part and was waiting for a bug to be delivered, which Vishakha confirmed she would deliver by the end of the day. Sarthak also mentioned that he was waiting for a Kubernetes VM form from Ramanji, which he hoped to receive by the end of the day. 	
+Task Due Date and Database Progress 	
+In the meeting, Sarthak and Utsav discussed changing the due date on a task to avoid giving the impression of inactivity. Kshitij shared his progress on database concepts and KT stuff. Utsav agreed to review a document shared by Vishakha during his drive and they planned to discuss it further later. Vishakha also mentioned a demo she had given to loyalty the previous day, which she wanted to discuss with Utsav later. Lastly, Utsav mentioned needing to address some visa issues.
+
+
+=== Received on: 2024-12-18 11:13:17.467000+00:00 ===
+(12/18/2024) 	
+Quick recap 	
+The team discussed various issues related to their work, including problems with the import of player IDs, the need to resolve issues with player ID versus universal ID, and updates related to the Oasis project. They also discussed the implementation of an archival feature for their system, the introduction of a bucket balance expiration alert flag, and the need for defect analysis and table changes for the loyalty system. The team agreed to continue working on their committed tasks, investigate potential tech debt, and reconvene for planning and further discussions. 	
+Next steps 	
+• Rahul to analyze the player ID vs universal ID issue reported by Barry and provide an update. 	
+• Vishakha to attach the loyalty changes analysis document to the relevant PBI. 	
+• Utsav to create a job for researching the implementation of loyalty player transaction archiving. 	
+• Scott to create separate PBIs for existing customers vs new customers regarding loyalty updates. 	
+• Vishakha to estimate the effort for analyzing loyalty 15.2.2 defects and their impact on Envision. 	
+• Scott to attach Barry's document to the job moved to the current sprint. 	
+• Utsav and Rahul to discuss the implementation details of loyalty player transaction archiving. 	
+• Team to use correct CTP numbers when recording time for defects. 	
+• Scott to schedule a planning meeting for Friday morning. 	
+• Rahul to reschedule his presentation meeting for 10:00-10:30. 	
+	
+	
+Summary 	
+Setting Up Code and Database Issues 	
+In the meeting, Vishakha discussed her work on setting up code and database, and her investigation into issues with demo 6. She also mentioned her analysis of changes related to a mail from loyalty. Sarthak shared his work on a training course and his request for VMs for Kubernetes. Rahul discussed his completion of Pvi investigation and his work on the Pbi raised by Smith. Manpreet mentioned that he had requested tasks for Sandeep. Scott apologized for scheduling a grooming session without notice and mentioned that Bryan was out on Pto. He also raised a concern about a difference in behavior when creating a filter on player Id. The team agreed to discuss these issues further in the grooming session. 	
+Player ID Import and Recognition 	
+In the meeting, Scott and Utsav discussed a problem with the import of a large list of player IDs into a report. The issue was that the player IDs were not being recognized correctly, leading to incomplete data. Scott suggested that the problem might be due to the format of the player IDs, possibly being in double quotes instead of single quotes. He also mentioned that the problem might be related to the configuration of Microstrategy. Utsav agreed to look into the issue further. Scott also mentioned that he had been working with a customer on this issue and had not found a solution yet. 	
+Resolving Player ID vs Universal ID 	
+In the meeting, Scott and the team discussed the need to resolve an issue related to player ID versus universal ID not working the same. They agreed to prioritize this issue and aim to find a solution within the next day or two. Scott also mentioned that Barry, who is out of office for the holidays, should be informed of any progress. The team also discussed the need for approval for certain updates and the potential for tech debt. Scott encouraged the team to identify and report any tech debt they come across. The team agreed to continue working on the committed tasks and to look into the issues raised in Demo 6. 	
+Oasis Project Updates and Changes 	
+The team discussed updates and changes related to the Oasis project. Scott highlighted the need for someone to work with Oasis to understand their updates and potential impacts. They also discussed the need for data changes from a simple average way to denom to be reflected in the ETL and analytics product. The target version for Oasis was set as 1211, 6,000, and above. The team agreed to investigate the effects of the Oasis feature on the ETL and document the data changes. They also discussed the need to test the changes with all supported versions. Scott confirmed that the work on the changes started from 1211, 6,000 and continued with 1214. 	
+Voices Team Session and Work Plan 	
+The team discussed the need to conduct a session with the voices team to gather information about the release of certain features and their support versions. They agreed to connect with the OSS team to understand their capabilities and then re-estimate the tasks. The team also discussed the need for a template for their work plan and the importance of having a deeper discussion with both the loyalty and oasis teams. They also discussed the need for data updates and changes from the loyalty player transaction archiving feature to be reflected in ETL. The team agreed to attach relevant documents and links to the PBIs for further reference. 	
+Handling Archived Loyalty System Data 	
+Utsav, Scott, and Rahul discussed the challenges and potential solutions for handling archived data from the loyalty system. They agreed that for existing customers, there's no change needed as the data is already in the system. However, for new customers, they need to decide whether to load data from the archive database, which could be slow due to the lack of indexes. They also discussed the process of merging players, where archived transactions are not updated, making them potentially useless. The team decided to further discuss these issues with the loyalty team and consider the implications of their decisions. 	
+Archival Feature Implementation and Research 	
+In the meeting, the team discussed the implementation of an archival feature for their system. They reviewed a document detailing the changes and impacts of this feature, with a focus on performance issues and the need for a new approach. It was decided that a job would be created for research purposes, and then specific PBIs would be created based on the findings. The team also discussed the need for a separate PBI for onboarding a new customer. The conversation ended with the understanding that the archival feature would be implemented in phases, with the first phase being research. 	
+Bucket Balance Expiration Alert Flag 	
+Scott and Utsav discussed the introduction of a bucket balance expiration alert flag in version 15.2.2. Utsav clarified that the flag is a new addition and not a change to the existing transaction logic. Scott expressed concern about the potential impact on the ETL process, but Utsav reassured him that the flag would not break anything. They also discussed the functionality of the flag in relation to player notifications and the proximity report. Manpreet asked about the scope of the flag in relation to the expiration of transactions, but Scott clarified that it was only about the flag. The team agreed to assume that the expiration logic is already handled properly in the loyalty system. 	
+ETL and Database Change Estimation 	
+In the meeting, the team discussed the estimation of time required for various tasks related to the ETL and database changes. The team agreed to allocate 3 days for analysis, 2 days for ETL changes, and 1 day for database changes. They also discussed the need for testing on the loyalty environment and the integration with the loyalty side of implementation. The team agreed to allocate 1 day for testing the database changes and 1 day for the microstrategy changes. The team also discussed the need for documenting the effects on the microstrategy layer and ensuring the data is aggregated properly. The team agreed to allocate 1 day for the microstrategy changes. 	
+Loyalty System Defect Analysis and Changes 	
+Scott, Utsav, and Vishakha discussed the need for a defect analysis and table changes for the loyalty system. Scott emphasized the importance of understanding the changes before they occur, as the current process of receiving an email after changes have been made is insufficient. Utsav suggested that the development team should conduct the defect analysis, but Scott clarified that the focus should be on identifying table changes and their potential impact. The team agreed to continue with the current process and to review the defects in the next sprint. Scott also mentioned the need to track the time spent on defects and to use the data for future improvements. The team agreed to reconvene on Friday for planning and to discuss the remaining items.
+
+
+=== Received on: 2024-12-17 09:41:07.082000+00:00 ===
+(12/17/2024) 	
+Quick recap 	
+The team discussed their progress on various tasks, including the addition of automatic AI summaries for their scrum calls and the non-compliance with the 3-day office mandate. They also reviewed their work on the loyalty script, conversion invoices, and performance issues. The conversation ended with plans to schedule a call with Scott to discuss potential upgrades to their build process. 	
+Next steps 	
+• Vishakha to complete analysis of remaining 15 tables for Loyalty script and notify Loyalty team. 	
+• Vishakha to connect with Barry regarding demo issues and create a list to start work. 	
+• Utsav to discuss with Scott about potential upgrades to the build process. 	
+	
+	
+Summary 	
+Greetings and Meeting Attendance Confirmation 	
+Vishakha and Utsav greeted everyone, including Scott, at the start of the meeting. Scott asked how everyone was doing, and Vishakha responded positively. Utsav had some difficulty hearing Vishakha's response. The meeting then proceeded with Utsav confirming that Rahul, who was referred to as 'Arv', had joined the meeting. 	
+Team Updates and Task Assignments 	
+In the meeting, Utsav informed the team about the addition of automatic AI summaries for their scrum calls and the non-compliance with the 3-day office mandate. Vishakha discussed her work on the loyalty script and her communication with the voices team. Kshitij shared his work on conversion invoices. Rahul and Manpreet discussed their tasks, with Rahul focusing on Shawn's meals and Manpreet reviewing a document on performance issues. Utsav ended the conversation by checking the tasking of the team. 	
+Progress, Tasks, and Upcoming Discussions 	
+The team discussed their progress and upcoming tasks. Kshitij confirmed he had completed a task and needed to close a security task. Rahul mentioned that they would focus on other items on Monday. Utsav informed the team that he had sent an email to Scott about potential upgrades to their build process, but Scott was not available at the time. Utsav suggested scheduling a call with Scott for the next day. The team agreed to close the scrum and continue discussions with Scott.
