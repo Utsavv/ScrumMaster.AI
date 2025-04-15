@@ -95,17 +95,35 @@ def save_today_burndown(tasks, iteration_path):
 
     df = pd.DataFrame(rows)
 
+    # Apply color coding based on due date approaching
+    def apply_color_coding(row):
+        if row["DateDue"]:
+            try:
+                due_date = datetime.fromisoformat(row["DateDue"])
+                days_remaining = (due_date - datetime.now()).days
+                if days_remaining < 0:
+                    return "background-color: red; color: white;"  # Overdue
+                elif days_remaining <= 2:
+                    return "background-color: orange; color: black;"  # Approaching
+                else:
+                    return "background-color: green; color: white;"  # Safe
+            except ValueError:
+                return ""  # Invalid date format
+        return ""  # No due date
+
+    styled_df = df.style.applymap(apply_color_coding, subset=["DateDue"])
+
     # Save or append sheet to burndown file
     if os.path.exists(EXCEL_FILE):
         try:
             with pd.ExcelWriter(EXCEL_FILE, engine="openpyxl", mode='a', if_sheet_exists="replace") as writer:
-                df.to_excel(writer, sheet_name=today, index=False)
+                styled_df.to_excel(writer, sheet_name=today, index=False)
         except PermissionError:
             print(f"❌ Unable to write to {EXCEL_FILE}. It might be open. Please close it and try again.")
             return
     else:
         with pd.ExcelWriter(EXCEL_FILE, engine="openpyxl") as writer:
-            df.to_excel(writer, sheet_name=today, index=False)
+            styled_df.to_excel(writer, sheet_name=today, index=False)
 
     print(f"✅ Saved {len(df)} tasks to burndown file → Sheet: {today}")
 
