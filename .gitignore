@@ -1,0 +1,14 @@
+# Ignore text files
+*.txt
+
+# Ignore CSV files
+*.csv
+
+# Ignore Excel files
+*.xlsx
+*.xls
+
+# Ignore other temporary or backup files
+*.bak
+*.tmp
+~$*

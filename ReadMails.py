@@ -1,10 +1,21 @@
 import os
+from datetime import datetime
+import pytz  # Install using 'pip install pytz'
 import win32com.client
 
 def read_and_save_meeting_summaries():
     # Markers in the body
     start_marker = "Meeting summary for Data Analytics Daily Scrum "
     end_marker = "AI-generated content may be inaccurate or misleading. Always check for accuracy."
+
+    # Define timezone and date range
+    timezone = pytz.timezone("UTC")  # Adjust to your timezone if needed
+    start_date = timezone.localize(datetime(2024, 12, 24))  # Example: December 24, 2024
+    end_date = timezone.localize(datetime(2025, 1, 23))    # Example: December 31, 2024
+
+    # Convert dates to Outlook-friendly format (yyyy-MM-dd HH:mm)
+    start_date_str = start_date.strftime('%Y-%m-%d %H:%M')
+    end_date_str = end_date.strftime('%Y-%m-%d %H:%M')
 
     # Create an instance of Outlook
     outlook = win32com.client.Dispatch("Outlook.Application")
@@ -15,18 +26,17 @@ def read_and_save_meeting_summaries():
     # 6 refers to the inbox folder in Outlook
     inbox = mapi.GetDefaultFolder(6)
 
-    # Get all emails in Inbox
-    messages = inbox.Items
+    # Use Restrict to filter messages within the date range
+    filter_query = f"[ReceivedTime] >= '{start_date_str}' AND [ReceivedTime] <= '{end_date_str}'"
+    messages = inbox.Items.Restrict(filter_query)
 
-    # Sort messages by received time descending (most recent first)
-    messages.Sort("[ReceivedTime]", True)
-
-    # Prepare output file (ensure 'Mails' folder exists)
+    # Prepare output file with date range in the name
     output_folder = "Mails"
     os.makedirs(output_folder, exist_ok=True)
-    output_file_path = os.path.join(output_folder, "meeting_summaries.txt")
+    file_name = f"meeting_summaries_{start_date.strftime('%Y%m%d')}_to_{end_date.strftime('%Y%m%d')}.txt"
+    output_file_path = os.path.join(output_folder, file_name)
 
-    # Iterate through messages
+    # Iterate through filtered messages
     for message in messages:
         # 43 = MailItem in Outlook
         if message.Class == 43:
