@@ -1,13 +1,18 @@
-ollama_testcases_20250327_182457.txt
-ollama_testcases_20250327_200729.txt
-ollama_testcases_20250327_202607.txt
-ollama_testcases_20250327_230841.txt
-ollama_testcases_20250328_092702.txt
-ollama_testcases_20250328_100627.txt
-ollama_testcases_20250328_101514.txt
-ollama_testcases_20250328_102019.txt
-ollama_testcases_20250328_163242.txt
-SampleTestCase.txt
-tfs_workitems.csv
-UTDs.txt
-burndown.xlsx
+# Ignore text files
+*.txt
+
+# Ignore CSV files
+*.csv
+
+# Ignore Excel files
+*.xlsx
+*.xls
+
+# Ignore ollama test case files
+ollama_testcases_*.txt
+
+# Ignore Mails folder
+Mails/
+
+# Do not ignore environment files
+!deepseek_env/
